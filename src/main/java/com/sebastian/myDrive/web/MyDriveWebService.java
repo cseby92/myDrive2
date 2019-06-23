@@ -29,8 +29,6 @@ public class MyDriveWebService {
   }
 
   //USE MULTIPART INSTEAD
-
-
   private static String convertStreamToString( InputStream is, String ecoding ) throws IOException
   {
     StringBuilder sb = new StringBuilder( Math.max( 16, is.available() ) );
